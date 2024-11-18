@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <script>
+        let  userGrade = +prompt("What's your grade?");
+        console.log(userGrade)
+        if (userGrade > 100 || userGrade < 0) { 
+            alert('Wrong user grade');
+        }else if (userGrade >= 90 && userGrade <= 100) {
+            alert('A');
+        }else if(userGrade >= 80 && userGrade <= 89) {
+            alert('B');
+        }else if(userGrade >= 70 && userGrade <= 79) {
+            alert('C');
+        }else if(userGrade >= 60 && userGrade <= 69) {
+            alert('D');
+        }else if(userGrade >= 50 && userGrade <= 59) {
+            alert('F');
+        }
+    </script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 
-import { STR1, STR2 } from './index2.mjs';
+import { STR1, STR2 } from './index2.js';
 let commonCount = 0; 
 
 
